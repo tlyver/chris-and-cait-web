@@ -1,0 +1,24 @@
+.body-section {
+  margin-bottom: 1rem;
+}
+
+.body-section--details{
+  min-width: 500px;
+  min-height: 150px;
+}
+
+.details--date {
+  font-size: 50px;
+}
+
+.details--location {
+  font-size: 25px;
+}
+
+.border-right {
+  border-right: 1px solid #ccc
+}
+
+.w-inherit {
+  width: inherit;
+}

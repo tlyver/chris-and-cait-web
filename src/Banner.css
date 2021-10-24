@@ -1,0 +1,38 @@
+.page-title {
+  font-size: 4rem;
+}
+
+@include media-breakpoint-up(sm) {
+  .page-title {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .page-title {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .page-title {
+    font-size: 1.6rem;
+  }
+}
+
+.banner {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  font-family: cursive;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Alex Brush', cursive;
+}
+
+.banner-element {
+  min-width: 175px
+}
+
+.banner-element--small {
+  min-width: 100px
+}
