@@ -4,16 +4,14 @@ import './Footer.scss';
 class Footer extends React.Component {
   render() {
     return (
-      <div class="footer">
-        <div class="footer-name">
-          <div>
-            Caitlin Courtois
-          </div>
-          <div>
-            &
-          </div>
-          <div>
-            Christopher Lyver
+      <div class="container pt-4">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-7 col-lg-5">
+            <img
+              src={process.env.PUBLIC_URL + '/city.jpg'}
+              alt="<3"
+              class="w-100 framed-image"
+            />
           </div>
         </div>
       </div>

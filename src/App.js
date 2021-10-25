@@ -3,12 +3,14 @@ import './Global.scss';
 import './fonts.scss';
 import Banner from './Banner.js';
 import Body from './Body.js';
+import Footer from './Footer.js';
 
 function App() {
   return (
-    <div className="App mb-5 pb-5">
+    <div className="App">
       <Banner />
       <Body />
+      <Footer />
     </div>
   );
 }
