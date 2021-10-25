@@ -4,9 +4,9 @@ import './Banner.css';
 class Banner extends React.Component {
   render() {
     return (
-      <div class="container">
+      <div class="container banner">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-8 alex-and-brush page-title">
+          <div class="page-title underground">
             Chris & Cait
           </div>
         </div>
