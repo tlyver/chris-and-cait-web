@@ -1,0 +1,25 @@
+.page-title {
+  font-size: 2rem;
+}
+
+// @include media-breakpoint-up(sm) {
+//   .page-title {
+//     font-size: 1.0rem;
+//   }
+// }
+//
+// @include media-breakpoint-up(md) {
+//   .page-title {
+//     font-size: 1.4rem;
+//   }
+// }
+//
+// @include media-breakpoint-up(lg) {
+//   .page-title {
+//     font-size: 1.6rem;
+//   }
+// }
+
+.banner {
+  border-bottom: 1px solid #000;
+}

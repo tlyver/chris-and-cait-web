@@ -1,16 +1,17 @@
 import React from 'react';
-import './Banner.css';
+import './Banner.scss';
 
 class Banner extends React.Component {
   render() {
     return (
-      <div class="container banner">
+      <div class="banner sticky-top bg-white">
         <div class="row justify-content-center">
           <div class="page-title underground">
-            Chris & Cait
+            Caitlin & Christopher
           </div>
         </div>
       </div>
+
     )
   }
 }

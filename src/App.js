@@ -1,15 +1,13 @@
-import './App.css';
-import './Global.css';
-import './fonts.css';
+import './App.scss';
+import './Global.scss';
+import './fonts.scss';
 import Banner from './Banner.js';
 import Body from './Body.js';
 
 function App() {
   return (
-    <div className="App mb-5">
-      {/*
-        <Banner />
-      */}
+    <div className="App mb-5 pb-5">
+      <Banner />
       <Body />
     </div>
   );
