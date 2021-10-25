@@ -22,3 +22,7 @@
 .w-inherit {
   width: inherit;
 }
+
+.section-header {
+  font-family: Underground;
+}

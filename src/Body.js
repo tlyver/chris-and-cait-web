@@ -93,7 +93,7 @@ class Body extends React.Component {
 
         <div class="row border-top pt-4">
           <div class="col">
-            <h2 class="">Coming Soon</h2>
+            <h2 class="section-header">Coming Soon</h2>
             <div class="pt-2">
               Please check back soon for updates on accommodation info and our registry!
             </div>

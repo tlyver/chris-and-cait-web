@@ -38,3 +38,8 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: 'Underground';
+  src: local('Underground'), url(./fonts/P22Underground-LtS.otf) format('opentype');
+}
