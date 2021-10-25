@@ -23,8 +23,8 @@ class Body extends React.Component {
         </div>
         */}
 
-        <div class="row mt-4 ">
-          <div class="col">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-7 col-lg-5">
             <img
               src={process.env.PUBLIC_URL + '/chris_cait_color.jpg'}
               alt="<3"
@@ -91,9 +91,9 @@ class Body extends React.Component {
           </div>
         */}
 
-        <div class="row" id="registry">
+        <div class="row border-top pt-4">
           <div class="col">
-            <h2 class="d-flex justify-content-center">Coming Soon</h2>
+            <h2 class="">Coming Soon</h2>
             <div class="pt-2">
               Please check back soon for updates on accommodation info and our registry!
             </div>
