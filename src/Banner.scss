@@ -1,25 +1,18 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
 .page-title {
-  font-size: 2rem;
+  font-size: 1.5rem
 }
 
-// @include media-breakpoint-up(sm) {
-//   .page-title {
-//     font-size: 1.0rem;
-//   }
-// }
-//
-// @include media-breakpoint-up(md) {
-//   .page-title {
-//     font-size: 1.4rem;
-//   }
-// }
-//
-// @include media-breakpoint-up(lg) {
-//   .page-title {
-//     font-size: 1.6rem;
-//   }
-// }
+@include media-breakpoint-up(sm) {
+  .page-title {
+    font-size: 2rem;
+  }
+}
 
 .banner {
+  padding: 0 0.5rem;
   border-bottom: 1px solid #000;
 }

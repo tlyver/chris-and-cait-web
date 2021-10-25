@@ -91,7 +91,7 @@ class Body extends React.Component {
           </div>
         */}
 
-        <div class="row border-top border-dark pt-4">
+        <div class="row border-top border-dark py-4">
           <div class="col">
             <h2 class="section-header">Coming Soon</h2>
             <div class="pt-2">
