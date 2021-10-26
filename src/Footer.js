@@ -4,7 +4,7 @@ import './Footer.scss';
 class Footer extends React.Component {
   render() {
     return (
-      <div class="container pt-4">
+      <div class="footer container pt-4">
         <div class="row d-flex justify-content-center">
           <div class="col-12 col-md-7 col-lg-5">
             <img

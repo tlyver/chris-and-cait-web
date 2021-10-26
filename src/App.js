@@ -7,7 +7,7 @@ import Footer from './Footer.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex flex-column">
       <Banner />
       <Body />
       <Footer />
