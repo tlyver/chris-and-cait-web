@@ -30,6 +30,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -42,4 +43,9 @@
 @font-face {
   font-family: 'Underground';
   src: local('Underground'), url(./fonts/P22Underground-LtS.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Eaves';
+  src: local('Eaves'), url(./fonts/MrEavesXLModNarOT-RegItalic.ttf) format('opentype');
 }

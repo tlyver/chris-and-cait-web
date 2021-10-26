@@ -23,13 +23,22 @@ class Body extends React.Component {
         </div>
         */}
 
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center py-4">
           <div class="col-12 col-md-7 col-lg-5">
             <img
-              src={process.env.PUBLIC_URL + '/chris_cait_color.jpg'}
+              src={process.env.PUBLIC_URL + '/chris_and_cait_no_text.jpg'}
               alt="<3"
               class="w-100 framed-image"
             />
+            <div class="invite-header underground py-3">
+              Caitlin Courtois & Christopher Lyver
+            </div>
+            <div class="eaves is-20">
+              Audrey's Farmhouse + The Greenhouses
+            </div>
+            <div class="eaves is-20">
+              October 1, 2022 | Wallkill, NY
+            </div>
           </div>
         </div>
         {/*
@@ -94,7 +103,7 @@ class Body extends React.Component {
         <div class="row border-top border-dark py-4">
           <div class="col">
             <h2 class="section-header">Coming Soon</h2>
-            <div class="pt-2">
+            <div class="eaves is-20 pt-2">
               Please check back soon for updates on accommodation info and our registry!
             </div>
           </div>
