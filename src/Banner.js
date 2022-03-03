@@ -13,16 +13,16 @@ class Banner extends React.Component {
           <div class="" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <NavLink className="nav-link link-dark" exact to="/" activeClassName="active">Home</NavLink>
+                <NavLink className="nav-link link-dark underground" exact to="/" activeClassName="active">Home</NavLink>
               </li>
               <li class="nav-item">
-                <NavLink className="nav-link link-dark" to="/events" activeClassName="active">Events</NavLink>
+                <NavLink className="nav-link link-dark underground" to="/events" activeClassName="active">Events</NavLink>
               </li>
               <li class="nav-item">
-                <NavLink className="nav-link link-dark" to="/accommodations" activeClassName="active">Accommodations</NavLink>
+                <NavLink className="nav-link link-dark underground" to="/accommodations" activeClassName="active">Accommodations</NavLink>
               </li>
               <li class="nav-item">
-                <NavLink className="nav-link link-dark" to="/registry" activeClassName="active">Registry</NavLink>
+                <NavLink className="nav-link link-dark underground" to="/registry" activeClassName="active">Registry</NavLink>
               </li>
             </ul>
           </div>

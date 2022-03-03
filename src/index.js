@@ -7,25 +7,27 @@ import {
 } from "react-router-dom";
 import './scss/custom.scss';
 import './index.scss';
-import App from './App';
+import './App.scss';
+import './Global.scss';
+import './fonts.scss';
 import Accommodations from './routes/accommodations';
-import Banner from './Banner';
+import Layout from './Layout';
+import Body from './Body';
 import Events from './routes/events';
-import Footer from './Footer';
 import Registry from './routes/registry';
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Banner />
-    <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="events" element={<Events />} />
-      <Route path="accommodations" element={<Accommodations />} />
-      <Route path="registry" element={<Registry />} />
-    </Routes>
-    <Footer />
+    <Layout>
+      <Routes>
+        <Route path="/" element={<Body />} />
+        <Route path="events" element={<Events />} />
+        <Route path="accommodations" element={<Accommodations />} />
+        <Route path="registry" element={<Registry />} />
+      </Routes>
+    </Layout>
   </BrowserRouter>,
   document.getElementById('root')
 );

@@ -1,12 +1,12 @@
 import './App.scss';
 import './Global.scss';
 import './fonts.scss';
-import Body from './Body.js';
+import Layout from './Layout';
 
 function App() {
   return (
     <div className="App d-flex flex-column">
-      <Body />
+      <Layout />
     </div>
   );
 }
