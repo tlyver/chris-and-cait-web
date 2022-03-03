@@ -1,7 +1,7 @@
 export default function Events() {
   return (
     <div>
-      <div class="row border-top border-dark py-4">
+      <div class="row py-4">
         <div class="col">
           <h2 class="section-header">Events</h2>
         </div>
