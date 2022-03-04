@@ -4,7 +4,7 @@ import './Body.scss';
 class Body extends React.Component {
   render() {
     return (
-      <div class="container">
+      <div className="container">
         {/*
         <div class="row">
           <div class="col">
@@ -23,20 +23,20 @@ class Body extends React.Component {
         </div>
         */}
 
-        <div class="row d-flex justify-content-center py-4">
-          <div class="col-12 col-md-7 col-lg-5">
+        <div className="row d-flex justify-content-center py-4">
+          <div className="col-12 col-md-7 col-lg-5">
             <img
               src={process.env.PUBLIC_URL + '/chris_and_cait_no_text.jpg'}
               alt="<3"
-              class="w-100 framed-image"
+              className="w-100 framed-image"
             />
-            <div class="invite-header underground py-3">
+            <div className="invite-header underground py-3">
               Caitlin Courtois & Christopher Lyver
             </div>
-            <div class="eaves is-20">
+            <div className="eaves is-20">
               Audrey's Farmhouse + The Greenhouses
             </div>
-            <div class="eaves is-20">
+            <div className="eaves is-20">
               October 1, 2022 | Wallkill, NY
             </div>
           </div>

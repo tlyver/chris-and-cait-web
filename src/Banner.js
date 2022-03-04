@@ -5,23 +5,23 @@ import './Banner.scss';
 class Banner extends React.Component {
   render() {
     return (
-        <nav class="navbar navbar-expand sticky-top bg-white d-flex flex-direction--column">
-          <div class="page-title underground">
+        <nav className="navbar navbar-expand sticky-top bg-white d-flex flex-direction--column">
+          <div className="page-title underground">
             Caitlin & Christopher
           </div>
-          <div class="" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <NavLink className="nav-link link-dark underground" exact to="/" activeClassName="active">Home</NavLink>
+          <div className="" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <NavLink className="nav-link link-dark underground" to="/" activeclassname="active">Home</NavLink>
               </li>
-              <li class="nav-item">
-                <NavLink className="nav-link link-dark underground" to="/events" activeClassName="active">Events</NavLink>
+              <li className="nav-item">
+                <NavLink className="nav-link link-dark underground" to="/events" activeclassname="active">Events</NavLink>
               </li>
-              <li class="nav-item">
-                <NavLink className="nav-link link-dark underground" to="/accommodations" activeClassName="active">Accommodations</NavLink>
+              <li className="nav-item">
+                <NavLink className="nav-link link-dark underground" to="/accommodations" activeclassname="active">Accommodations</NavLink>
               </li>
-              <li class="nav-item">
-                <NavLink className="nav-link link-dark underground" to="/registry" activeClassName="active">Registry</NavLink>
+              <li className="nav-item">
+                <NavLink className="nav-link link-dark underground" to="/registry" activeclassname="active">Registry</NavLink>
               </li>
             </ul>
           </div>
