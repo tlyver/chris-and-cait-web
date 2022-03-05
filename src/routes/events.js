@@ -13,9 +13,18 @@ export default function Events() {
       </div>
 
       <Event
-        event="Welcome Gathering"
-        date="Friday, September 30, 2022"
-        time="8:30 pm"
+        event="Ceremony"
+        date="Saturday, October 1, 2022"
+        time="5:00 pm"
+        location="Audry's Farmhouse + The Greenhouses"
+        street="2187 Bruynswick Rd,"
+        city="Walkill, NY 12589"
+        attire="Casual Attire"
+      />
+      <Event
+        event="Time To Party!"
+        date="Saturday, October 1, 2022"
+        time="6:00 pm - 11:00 pm"
         location="Audry's Farmhouse + The Greenhouses"
         street="2187 Bruynswick Rd,"
         city="Walkill, NY 12589"
