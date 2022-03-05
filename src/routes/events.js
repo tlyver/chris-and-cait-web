@@ -1,4 +1,4 @@
-import './events.scss';
+import Event from '../event';
 
 export default function Events() {
   return (
@@ -12,187 +12,15 @@ export default function Events() {
         </div>
       </div>
 
-      <div className="row row-cols-1 row-cols-md-2 mt-4 mb-5">
-        <div className="col d-flex flex-direction--column align-items-center justify-content-center border-right-responsive pt-5 pb-5">
-          <h2 className="underground">Welcome Gathering</h2>
-          <div className="eaves is-20">Friday, September 30, 2022</div>
-          <div className="eaves is-20">8:30 pm</div>
-        </div>
-        <div className="col d-flex flex-column align-items-center justify-content-center underground">
-          <div>Audry's Farmhouse + The Greenhouses</div>
-          <div className="d-flex flex-column address">
-            <div>
-              2187 Bruynswick Rd,
-            </div>
-            <div>
-              Wallkill, NY 12589
-            </div>
-          </div>
-          <div className="pt-3">Casual Attire</div>
-        </div>
-      </div>
-
-
-      <div className="row py-4 justify-content-center d-block d-md-none">
-        <div className="col-2 border-bottom border-dark m-auto">
-        </div>
-      </div>
-
-      <div className="row row-cols-1 row-cols-md-2 mt-4 mb-5">
-        <div className="col d-flex flex-direction--column align-items-center justify-content-center border-right-responsive pt-5 pb-5">
-          <h2 className="underground">Welcome Gathering</h2>
-          <div className="eaves is-20">Friday, September 30, 2022</div>
-          <div className="eaves is-20">8:30 pm</div>
-        </div>
-        <div className="col d-flex flex-column align-items-center justify-content-center underground">
-          <div>Audry's Farmhouse + The Greenhouses</div>
-          <div className="d-flex flex-column address">
-            <div>
-              2187 Bruynswick Rd,
-            </div>
-            <div>
-              Wallkill, NY 12589
-            </div>
-          </div>
-          <div className="pt-3">Casual Attire</div>
-        </div>
-      </div>
-
-
-      <div className="row py-4 justify-content-center d-block d-md-none">
-        <div className="col-2 border-bottom border-dark m-auto">
-        </div>
-      </div>
-
-      <div className="row row-cols-1 row-cols-md-2 mt-4 mb-5">
-        <div className="col d-flex flex-direction--column align-items-center justify-content-center border-right-responsive pt-5 pb-5">
-          <h2 className="underground">Welcome Gathering</h2>
-          <div className="eaves is-20">Friday, September 30, 2022</div>
-          <div className="eaves is-20">8:30 pm</div>
-        </div>
-        <div className="col d-flex flex-column align-items-center justify-content-center underground">
-          <div>Audry's Farmhouse + The Greenhouses</div>
-          <div className="d-flex flex-column address">
-            <div>
-              2187 Bruynswick Rd,
-            </div>
-            <div>
-              Wallkill, NY 12589
-            </div>
-          </div>
-          <div className="pt-3">Casual Attire</div>
-        </div>
-      </div>
-
-
-      <div className="row py-4 justify-content-center d-block d-md-none">
-        <div className="col-2 border-bottom border-dark m-auto">
-        </div>
-      </div>
-
-      <div className="row row-cols-1 row-cols-md-2 mt-4 mb-5">
-        <div className="col d-flex flex-direction--column align-items-center justify-content-center border-right-responsive pt-5 pb-5">
-          <h2 className="underground">Welcome Gathering</h2>
-          <div className="eaves is-20">Friday, September 30, 2022</div>
-          <div className="eaves is-20">8:30 pm</div>
-        </div>
-        <div className="col d-flex flex-column align-items-center justify-content-center underground">
-          <div>Audry's Farmhouse + The Greenhouses</div>
-          <div className="d-flex flex-column address">
-            <div>
-              2187 Bruynswick Rd,
-            </div>
-            <div>
-              Wallkill, NY 12589
-            </div>
-          </div>
-          <div className="pt-3">Casual Attire</div>
-        </div>
-      </div>
-
-
-      <div className="row py-4 justify-content-center d-block d-md-none">
-        <div className="col-2 border-bottom border-dark m-auto">
-        </div>
-      </div>
-
-      <div className="row row-cols-1 row-cols-md-2 mt-4 mb-5">
-        <div className="col d-flex flex-direction--column align-items-center justify-content-center border-right-responsive pt-5 pb-5">
-          <h2 className="underground">Welcome Gathering</h2>
-          <div className="eaves is-20">Friday, September 30, 2022</div>
-          <div className="eaves is-20">8:30 pm</div>
-        </div>
-        <div className="col d-flex flex-column align-items-center justify-content-center underground">
-          <div>Audry's Farmhouse + The Greenhouses</div>
-          <div className="d-flex flex-column address">
-            <div>
-              2187 Bruynswick Rd,
-            </div>
-            <div>
-              Wallkill, NY 12589
-            </div>
-          </div>
-          <div className="pt-3">Casual Attire</div>
-        </div>
-      </div>
-
-
-      <div className="row py-4 justify-content-center d-block d-md-none">
-        <div className="col-2 border-bottom border-dark m-auto">
-        </div>
-      </div>
-
-      <div className="row row-cols-1 row-cols-md-2 mt-4 mb-5">
-        <div className="col d-flex flex-direction--column align-items-center justify-content-center border-right-responsive pt-5 pb-5">
-          <h2 className="underground">Welcome Gathering</h2>
-          <div className="eaves is-20">Friday, September 30, 2022</div>
-          <div className="eaves is-20">8:30 pm</div>
-        </div>
-        <div className="col d-flex flex-column align-items-center justify-content-center underground">
-          <div>Audry's Farmhouse + The Greenhouses</div>
-          <div className="d-flex flex-column address">
-            <div>
-              2187 Bruynswick Rd,
-            </div>
-            <div>
-              Wallkill, NY 12589
-            </div>
-          </div>
-          <div className="pt-3">Casual Attire</div>
-        </div>
-      </div>
-
-
-      <div className="row py-4 justify-content-center d-block d-md-none">
-        <div className="col-2 border-bottom border-dark m-auto">
-        </div>
-      </div>
-
-      <div className="row row-cols-1 row-cols-md-2 mt-4 mb-5">
-        <div className="col d-flex flex-direction--column align-items-center justify-content-center border-right-responsive pt-5 pb-5">
-          <h2 className="underground">Welcome Gathering</h2>
-          <div className="eaves is-20">Friday, September 30, 2022</div>
-          <div className="eaves is-20">8:30 pm</div>
-        </div>
-        <div className="col d-flex flex-column align-items-center justify-content-center underground">
-          <div>Audry's Farmhouse + The Greenhouses</div>
-          <div className="d-flex flex-column address">
-            <div>
-              2187 Bruynswick Rd,
-            </div>
-            <div>
-              Wallkill, NY 12589
-            </div>
-          </div>
-          <div className="pt-3">Casual Attire</div>
-        </div>
-      </div>
-
-
-      <div className="row py-4 justify-content-center d-block d-md-none">
-        <div className="col-2 border-bottom border-dark m-auto">
-        </div>
-      </div>
+      <Event
+        event="Welcome Gathering"
+        date="Friday, September 30, 2022"
+        time="8:30 pm"
+        location="Audry's Farmhouse + The Greenhouses"
+        street="2187 Bruynswick Rd,"
+        city="Walkill, NY 12589"
+        attire="Casual Attire"
+      />
 
     </>
   );

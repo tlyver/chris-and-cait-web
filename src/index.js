@@ -19,8 +19,8 @@ import Registry from './routes/registry';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Layout>
+  <BrowserRouter className="test">
+    <Layout className="layout">
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="events" element={<Events />} />
