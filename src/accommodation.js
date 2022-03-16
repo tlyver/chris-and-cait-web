@@ -2,10 +2,6 @@ import './accommodation.scss';
 
 
 const Event = props => {
-  const clickMap = () => {
-    console.log("hello");
-  };
-
   const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener, noreferrer')
     if (newWindow) newWindow.opener = null
@@ -37,11 +33,11 @@ const Event = props => {
           </div>
           <a
             className="phone-number underground is-20 pt-3 pb-3"
-            href="tel:PHONE_NUM"
+            href={'tel:' + props.phone}
           >
             {props.phone}
           </a>
-          <div className="is-20">{props.description}</div>
+          <div className="is-18">{props.description}</div>
           <a
             href="https://www.caesars.com/caesars-palace"
             onClick={onClickUrl('https://www.caesars.com/caesars-palace')}
@@ -49,6 +45,7 @@ const Event = props => {
             role="button"
             aria-pressed="true"
             target="_blank"
+            rel="noreferrer"
           >
             View
           </a>

@@ -2,10 +2,6 @@ import './event.scss';
 
 
 const Event = props => {
-  const clickMap = () => {
-    console.log("hello");
-  };
-
   const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener, noreferrer')
     if (newWindow) newWindow.opener = null
@@ -41,6 +37,7 @@ const Event = props => {
             role="button"
             aria-pressed="true"
             target="_blank"
+            rel="noreferrer"
           >
             Map
           </a>
