@@ -21,7 +21,7 @@ export default function Registrys() {
       <Registry
         // description="We can have a description for Amazon(??)"
         buttonLabel="CB2"
-        buttonLink="https://www.cb2.com/gift-registry/registrant-list/6409329"
+        buttonLink="https://www.cb2.com/gift-registry/caitlin-courtois-and-christopher-lyver/r6409329"
         name="CB2"
       />
     </>
