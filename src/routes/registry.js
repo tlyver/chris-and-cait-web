@@ -13,7 +13,7 @@ export default function Registrys() {
       </div>
 
       <Registry
-        // description="We can have a description for Zola(??)"
+        description="(Includes item from Zola, Crate & Barrel and Amazon)"
         buttonLabel="Zola"
         buttonLink="https://www.zola.com/registry/chrisandcaitwedding"
         name="Zola"
