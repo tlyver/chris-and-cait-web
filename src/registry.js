@@ -26,7 +26,7 @@ const Event = props => {
 
           <div className="is-18">{props.description}</div>
           <a
-            // href={props.link}
+            href={props.link}
             onClick={onClickUrl(props.buttonLink)}
             className="btn btn-sm btn-outline-dark mt-5 underground"
             role="button"
