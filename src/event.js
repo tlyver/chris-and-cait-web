@@ -1,4 +1,6 @@
 import './event.scss';
+// import { FaBeer } from 'react-icons/fa';
+// import { FaRing } from 'react-icons/fa';
 
 
 const Event = props => {
@@ -18,6 +20,7 @@ const Event = props => {
           <h2 className="underground">{props.event}</h2>
           <div className="eaves is-20">{props.date}</div>
           <div className="eaves is-20">{props.time}</div>
+          <div className="mt-2">{props.attire}</div>
         </div>
         <div className="col d-flex flex-column align-items-center justify-content-center underground pt-3 pb-3">
           <div>{props.location}</div>
@@ -29,10 +32,10 @@ const Event = props => {
               {props.city}
             </div>
           </div>
-          <div className="mt-3 d-none">{props.attire}</div>
-          <a
-            href="https://goo.gl/maps/Kh7XiTXbGqpjZutH9"
-            onClick={onClickUrl('https://goo.gl/maps/Kh7XiTXbGqpjZutH9')}
+          {/* <div className="mt-3">{props.attire}</div> */}
+          {/* <a
+            href={props.map}
+            onClick={onClickUrl(props.map)}
             className="btn btn-sm btn-outline-dark mt-3 underground"
             role="button"
             aria-pressed="true"
@@ -40,7 +43,7 @@ const Event = props => {
             rel="noreferrer"
           >
             Map
-          </a>
+          </a> */}
           {
             /*
             <a

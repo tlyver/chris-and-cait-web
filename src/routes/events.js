@@ -13,53 +13,54 @@ export default function Events() {
       </div>
 
       <Event
-        event="Welcome Shindig"
+        event="Welcome Drinks"
         date="Friday, September 30, 2022"
         time="8:00 pm - 10:00 pm"
-        location="Audry's Farmhouse + The Greenhouses"
-        street="2187 Bruynswick Rd,"
-        city="Walkill, NY 12589"
+        location="Billy Joe's Ribworks"
+        street="26 Front St,"
+        city="Newburgh, NY 12550"
         attire="Casual Attire"
+        // map="https://g.page/Ribworks?share"
       />
 
       <Event
         event="Ceremony"
         date="Saturday, October 1, 2022"
-        time="4:30 pm - 11:00 pm"
+        time="4:30 pm - 5:00 pm"
         location="Audry's Farmhouse + The Greenhouses"
         street="2187 Bruynswick Rd,"
         city="Walkill, NY 12589"
-        attire="Casual Attire"
+        attire="Cocktail Attire"
       />
 
       <Event
         event="Cocktail Hour"
         date="Saturday, October 1, 2022"
-        time="5:00 pm - 6:00 pm"
+        time="(TBD check back soon)"
         location="Audry's Farmhouse + The Greenhouses"
         street="2187 Bruynswick Rd,"
         city="Walkill, NY 12589"
-        attire="Casual Attire"
+        attire="Cocktail Attire"
       />
 
       <Event
         event="Reception"
         date="Saturday, October 1, 2022"
-        time="6:00 pm - 10:30 pm"
+        time="(TBD check back soon)"
         location="Audry's Farmhouse + The Greenhouses"
         street="2187 Bruynswick Rd,"
         city="Walkill, NY 12589"
-        attire="Casual Attire"
+        attire="Cocktail Attire"
       />
 
       <Event
         event="Afterparty"
         date="Saturday, October 1, 2022"
-        time="11:00 pm"
+        time="(TBD check back soon)"
         location="Audry's Farmhouse + The Greenhouses"
         street="2187 Bruynswick Rd,"
         city="Walkill, NY 12589"
-        attire="Casual Attire"
+        attire="Cocktail Attire"
       />
 
     </>
