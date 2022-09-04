@@ -22,9 +22,13 @@ class Banner extends React.Component {
                 <li className="nav-item">
                   <NavLink className="nav-link link-dark underground" to="/accommodations" activeclassname="active">Accommodations</NavLink>
                 </li>
-              <li className="nav-item">
-                <NavLink className="nav-link link-dark underground" to="/registry" activeclassname="active">Registry</NavLink>
-              </li>
+                {
+                  /*
+                    <li className="nav-item">
+                      <NavLink className="nav-link link-dark underground" to="/registry" activeclassname="active">Registry</NavLink>
+                    </li>
+                  */
+                }
             </ul>
           </div>
         </nav>
