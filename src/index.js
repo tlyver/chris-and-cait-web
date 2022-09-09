@@ -8,7 +8,7 @@ import {
 import './scss/custom.scss';
 import './index.scss';
 import './App.scss';
-import './Global.scss';
+import './scss/Global.scss';
 import './fonts.scss';
 import Accommodations from './routes/accommodations';
 import Layout from './Layout';

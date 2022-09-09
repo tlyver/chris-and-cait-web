@@ -1,5 +1,5 @@
 import './App.scss';
-import './Global.scss';
+import './scss/Global.scss';
 import './fonts.scss';
 import Layout from './Layout';
 
@@ -12,3 +12,5 @@ function App() {
 }
 
 export default App;
+
+// <script src="https://kit.fontawesome.com/9636d91ede.js" crossorigin="anonymous"></script>

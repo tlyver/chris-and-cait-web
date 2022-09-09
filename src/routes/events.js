@@ -13,6 +13,7 @@ export default function Events() {
       </div>
 
       <Event
+        icon="/beer.jfif.jpg"
         event="Welcome Drinks"
         date="Friday, September 30, 2022"
         time="8:00 pm - 10:00 pm"
@@ -24,6 +25,7 @@ export default function Events() {
       />
 
       <Event
+        icon="/rings-icon.jpg"
         event="Ceremony"
         date="Saturday, October 1, 2022"
         time="4:30 pm - 5:00 pm"
@@ -34,6 +36,7 @@ export default function Events() {
       />
 
       <Event
+        icon="/champagne-glass-icon.jpg"
         event="Cocktail Hour"
         date="Saturday, October 1, 2022"
         time="(TBD check back soon)"
@@ -44,6 +47,7 @@ export default function Events() {
       />
 
       <Event
+        icon="/dinner.png"
         event="Reception"
         date="Saturday, October 1, 2022"
         time="(TBD check back soon)"
@@ -54,6 +58,7 @@ export default function Events() {
       />
 
       <Event
+        icon="/champagne-glass-icon.jpg"
         event="Afterparty"
         date="Saturday, October 1, 2022"
         time="(TBD check back soon)"
