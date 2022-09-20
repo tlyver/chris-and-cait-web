@@ -13,7 +13,7 @@ export default function Events() {
       </div>
 
       <Event
-        icon="/beer.jfif.jpg"
+        icon="/champagne-glass-icon.jpg"
         event="Welcome Drinks"
         date="Friday, September 30, 2022"
         time="8:00 pm - 10:00 pm"
