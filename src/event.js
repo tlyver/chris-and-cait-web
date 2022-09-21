@@ -26,6 +26,7 @@ const Event = props => {
           <h2 className="underground">{props.event}</h2>
           <div className="eaves is-20">{props.date}</div>
           <div className="eaves is-20">{props.time}</div>
+          <div className="eaves is-20">{props.info}</div>
           <div className="mt-2">{props.attire}</div>
         </div>
         <div className="col d-flex flex-column align-items-center justify-content-center underground pt-3 pb-3">
