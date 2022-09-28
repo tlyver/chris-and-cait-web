@@ -15,6 +15,7 @@ import Layout from './Layout';
 import Body from './Body';
 import Events from './routes/events';
 import Registry from './routes/registry';
+import Afterparty from './routes/afterparty';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -26,6 +27,7 @@ ReactDOM.render(
         <Route path="events" element={<Events />} />
         <Route path="accommodations" element={<Accommodations />} />
         <Route path="registry" element={<Registry />} />
+        <Route path="afterparty" element={<Afterparty />} />
       </Routes>
     </Layout>
   </BrowserRouter>,
